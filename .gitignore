@@ -3,7 +3,7 @@
 *.iml
 
 # Build output
-out/
+
 build/
 
 # Compiled Java files
