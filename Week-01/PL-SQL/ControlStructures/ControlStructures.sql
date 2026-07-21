@@ -19,10 +19,7 @@ INSERT INTO Customers VALUES
                           (3,'David',72,18000,8.5,FALSE,40),
                           (4,'Emma',61,9000,9.0,FALSE,10);
 
--- =========================================
--- Scenario 1
--- Apply 1% Discount for Customers Above 60
--- =========================================
+
 
 DROP PROCEDURE IF EXISTS ApplySeniorDiscount;
 
@@ -70,10 +67,6 @@ DELIMITER ;
 
 CALL ApplySeniorDiscount();
 
--- =========================================
--- Scenario 2
--- Promote Customers to VIP
--- =========================================
 
 DROP PROCEDURE IF EXISTS PromoteVIP;
 
